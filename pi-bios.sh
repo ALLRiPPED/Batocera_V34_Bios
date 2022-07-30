@@ -15,7 +15,8 @@ echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si 
 echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
 cd
 mkdir ../bios/dc
-mkdir ../bios/fmtowns/
+mkdir ../bios/fmtowns
+mkdir ../bios/neocd
 mkdir ../bios/mame
 mkdir ../bios/mame/samples
 mkdir ../bios/xmil
@@ -453,8 +454,10 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/ym2608.zip" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/zcdata.dat" -P ../bios/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/zcsf.sf2" -P ../bios/
+
 echo "Atomiswave"
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/dc/awbios.zip" -P ../bios/dc/
+
 echo "Naomi"
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/dc/naomi.zip" -P ../bios/dc/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/dc/naomi2.zip" -P ../bios/dc/
@@ -490,6 +493,7 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/np2kai/FONT.ROM" -P ../bios/np2kai/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/np2kai/ITF.ROM" -P ../bios/np2kai/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/np2kai/SOUND.ROM" -P ../bios/np2kai/
+
 echo "quasi88"
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/quasi88/N88EXT0.ROM" -P ../bios/quasi88/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/quasi88/N88EXT1.ROM" -P ../bios/quasi88/
@@ -498,9 +502,11 @@ wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/quasi88/N88N.ROM" -P ../bios/quasi88/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/quasi88/N88.ROM" -P ../bios/quasi88/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/quasi88/N88SUB.ROM" -P ../bios/quasi88/
+
 echo "xmil"
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/xmil/IPLROM.X1" -P ../bios/xmil/
 wget -c "https://raw.githubusercontent.com/Luciano2018/Batocera_V34_Bios/master/bios/xmil/iplrom.x1t" -P ../bios/xmil/
+
 echo
 sleep 1
 echo "Al fin, Copiadas todas las BIOS--Cool we finish"
