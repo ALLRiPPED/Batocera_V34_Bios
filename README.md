@@ -1,6 +1,6 @@
 <h1 align="center"> Batocera-V34-Bios 2022</h1>
 <p align="center">
-Las Bios Correctas y necesarias para Batocera V33, sin archivos innecesarios.
+Las Bios Correctas y necesarias para Batocera V34, sin archivos innecesarios.
 </p>
 <p align="center">
 The right Bios for Batocera V34, without unnecessary files.
